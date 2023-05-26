@@ -1,0 +1,45 @@
+/**
+* Vendors
+*/
+// Пример подключения плагинов
+// @import "~plugin-name.scss";
+@import "~normalize.css";
+@import "~swiper/css/swiper.min.css";
+@import '~select2/dist/css/select2.css';
+@import '~@fancyapps/fancybox/dist/jquery.fancybox.css';
+
+
+
+/**
+* Abstracts
+*/
+@import "abstracts/functions";
+@import "abstracts/variables";
+@import "abstracts/mixins";
+
+
+
+/**
+* Base
+*/
+@import "base/fonts";
+@import "base/generic";
+
+
+
+/*
+* Components
+*/
+//  Пример подключения стилей блоков
+// @import "components/my-block";
+
+// @import "blocks/block";
+@import "blocks/container";
+@import "blocks/page";
+@import "blocks/button";
+@import "blocks/icon";
+@import "blocks/social";
+@import "blocks/cards";
+@import "blocks/card";
+@import "blocks/actions";
+@import "blocks/tabs";

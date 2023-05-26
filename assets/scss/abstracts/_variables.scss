@@ -1,0 +1,114 @@
+/**
+* Colors
+*/
+
+$bunker: #121920;
+$white: #ffffff;
+$slate-gray: #768298;
+$curious-blue: #34AADD;
+$aquaIsland: #A7CCDC;
+$cerise-red: #DC2C53;
+$tapestry: #A7507B;
+$heather: #BBC4D6;
+$alabaster: #FAFAFA;
+$tuna: #3A3A43;
+$mine-shaft: #3C3C3C;
+$wildBlueYonder: #6680AE;
+$athensGray: #EBEBF1;
+$tundora: #4B4B4B;
+$jetStream: #AFD2C8;
+$saltBox: #69676D;
+$goldenGrass: #DC971F;
+$tiber: #0A2B37;
+
+$color-text: $bunker;
+$color-background: $alabaster;
+
+
+/**
+* Fonts
+*/
+
+$font-size-base: 16px; //?
+
+$font-path: "public/fonts";
+$font-family-custom: "Roboto";
+$font-family-default: sans-serif;
+$font-family: $font-family-custom, $font-family-default;
+
+$font-size-huge: 36px;
+$font-size-large: 30px;
+$font-size-medium: 24px;
+$font-size-small: 20px;
+$font-size-xSmall: 18px;
+$font-size-xxSmall: 16px;
+$font-size-tiny: 14px;
+
+$font-weight-medium: 500;
+$font-weight-regular: 400;
+
+$line-height-huge: 167%;
+$line-height-large: 160%;
+$line-height-medium: 140%;
+$line-height-small: 130%;
+$line-height-xSmall: 127%;
+$line-height-tiny: 120%;
+
+/**
+* Breakpoints
+*/
+// Пример указания медиазапросов, затем можно использовать ее как '@media #{$screen-medium} {...}'
+$screen-desktop: "(min-width: 1440px)";
+$screen-tablet: "(min-width: 768px)";
+
+
+/**
+* Layout
+*/
+$width-container: 1240px;
+$gap-container: 20px;
+
+$gap-items: rem(32px);
+
+/**
+* Sizes
+*/
+
+$height-header-mobile: 0;
+$height-header-desktop: 0;
+
+// $height-footer-mobile: 274px;
+$height-footer-desktop: 102px;
+
+$width-sidebar: rem(286px);
+
+/**
+* Transitions and Animations
+*/
+
+$transition-duration: .3s;
+$transition-duration-fast: .1s;
+$transition-function: ease-in-out;
+
+/**
+* Radius
+*/
+
+$border-radius: 8px;
+$border-radius-small: 5px;
+
+/**
+* Box-shadows
+*/
+
+
+
+/**
+* Z-indexes
+*/
+
+$z-index-header: 100;
+$z-index-card-img: 5;
+$z-index-card-box-shadow: 10;
+$z-index-card-text: 15;
+

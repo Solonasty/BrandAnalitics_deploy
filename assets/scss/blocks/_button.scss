@@ -1,0 +1,38 @@
+.button {
+
+    $size-normall: 50px; // Основной стиль
+
+    @include text-tiny;
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: rem($size-normall);
+    padding: 0 rem(20px);
+
+    cursor: pointer;
+    text-decoration: none;
+    color: $white;
+    border-radius: rem(5px);
+    border: none;
+
+    transition: color .2s linear;
+    transition: background-color .2s linear;
+
+    &--iconed#{&}--tabIcon { // блок в виде иконки
+        display: block;
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        color: $heather;
+        background-color: transparent;
+
+        &:hover {
+            color: $slate-gray;
+            transition: color .2s linear;
+            transition: background-color .2s linear;
+        }
+    }
+}
